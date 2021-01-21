@@ -7,9 +7,9 @@ Do not use the built in Array#forEach.
 
 Examples: */
 
-
-let myForEach = function(array, callback) {
-    for (let i= 0; i < array.length; i++) {
+//ddd
+let myForEach = function (array, callback) {
+    for (let i = 0; i < array.length; i++) {
         let ele = array[i]
         callback(ele, array)
     }
@@ -31,7 +31,7 @@ console.log(test); // ['LAIKA', 'BELKA']
 
 
 
-    
+
 
 
 /*****************DO NOT MODIFY ANYTHING UNDER THIS  LINE**********************/
